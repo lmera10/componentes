@@ -1,0 +1,14 @@
+
+<app-header titulo="Alert"></app-header>
+
+<ion-content>
+    <ion-button id="present-alert" color="secondary">Click Me</ion-button>
+    <ion-alert
+      trigger="present-alert"
+      header="A Short Title Is Best"
+      subHeader="A Sub Header Is Optional"
+      message="A message should be a short, complete sentence."
+      [buttons]="alertButtons"
+    ></ion-alert>
+
+</ion-content>
